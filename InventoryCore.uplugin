@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "InventoryCore",
+	"Description": "A Minimal Unreal Engine inventory plugin with multiplayer replication and save/load support. Fully customizable and easy to extend.",
+	"Category": "Other",
+	"CreatedBy": "Alijimpa",
+	"CreatedByURL": "https://alibadpa.weebly.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "InventoryCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
