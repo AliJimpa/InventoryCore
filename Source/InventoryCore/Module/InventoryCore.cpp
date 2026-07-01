@@ -1,6 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "InventoryCore.h"
+#include "Engine/InventoryDebug.h"
 
 #define LOCTEXT_NAMESPACE "FInventoryCoreModule"
 
@@ -18,3 +19,5 @@ void FInventoryCoreModule::ShutdownModule()
 #undef LOCTEXT_NAMESPACE
 	
 IMPLEMENT_MODULE(FInventoryCoreModule, InventoryCore)
+
+DEFINE_LOG_CATEGORY(Log_InventoryCore)
